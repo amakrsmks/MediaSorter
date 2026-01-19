@@ -1,0 +1,29 @@
+name: media_sorter
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  file_selector: ^1.1.0
+  flutter_bloc: ^9.1.1
+  meta: ^1.17.0
+  path: ^1.9.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+
+flutter:
+  uses-material-design: true
