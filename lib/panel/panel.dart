@@ -11,7 +11,7 @@ class Panel extends StatelessWidget {
 
   const Panel({super.key, required this.isLeft});
 
-  static const EdgeInsets _leftPadding = EdgeInsets.fromLTRB(8, 0, 8, 8);
+  static const EdgeInsets _leftPadding = EdgeInsets.fromLTRB(8, 0, 0, 8);
   static const EdgeInsets _rightPadding = EdgeInsets.fromLTRB(0, 0, 8, 8);
 
   @override
